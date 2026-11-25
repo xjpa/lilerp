@@ -10,6 +10,8 @@ Requirements: Node.js 22+, npm, and Docker Desktop with its engine running.
 npm ci
 cp .env.example .env
 npm run db:up
+npm run db:generate
+npm run db:migrate
 npm run dev
 ```
 
@@ -28,3 +30,4 @@ npm run build
 ## Learning notes
 
 - [Commit 1: application foundations](docs/learning/01-foundations.md)
+- [Commit 2: project records](docs/learning/02-project-records.md)
